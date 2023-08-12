@@ -1,4 +1,4 @@
-from essential_func import readLangs, prepareData
+from essential_func import prepareData, get_dataloader
 import random
 
 
