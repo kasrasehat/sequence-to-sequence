@@ -155,6 +155,7 @@ def get_dataloader(batch_size):
     train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=batch_size)
     return input_lang, output_lang, train_dataloader
 
+
 def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
           decoder_optimizer, criterion):
 
